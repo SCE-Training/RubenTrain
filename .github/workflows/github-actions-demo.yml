@@ -14,5 +14,5 @@ jobs:
     steps:
       - run: 
           echo "Hello world"
-          ls
+          echo "Please do not break ${{ github }}"
       
